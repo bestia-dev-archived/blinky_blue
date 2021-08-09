@@ -4,5 +4,5 @@
 
 minimal rust program for Longan Nano  
 
-This program is created with the instruction here:  
+This program is created with the instructions here:  
 <https://github.com/LucianoBestia/longan_nano_rust_wsl2_platformio_setup>  
