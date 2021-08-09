@@ -13,20 +13,14 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
 //
 
 ////////////////////////////////////////////////////////
-// Arduino                                            //
+// All others                                         //
 ////////////////////////////////////////////////////////
-
 
 use longan_nano::hal::{pac, prelude::*};
 use longan_nano::led::{Led, rgb};
 
 #[no_mangle]
-extern "C" fn setup() {
-}
-
-#[no_mangle]
-#[export_name = "loop"]
-extern "C" fn arduino_loop() {
+extern "C" fn main() -> i32 {
     let dp = pac::Peripherals::take().unwrap();
     let mut rcu = dp.RCU.configure().sysclk(108.mhz()).freeze();
 
@@ -56,4 +50,5 @@ extern "C" fn arduino_loop() {
             i += 1;
         }
     }
+    0
 }
