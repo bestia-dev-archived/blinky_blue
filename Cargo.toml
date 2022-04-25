@@ -3,6 +3,7 @@ name = "blinky_blue"
 edition = "2018"
 version = "0.1.0"
 authors = ["bestia.dev"]
+homepage = "https://bestia.dev"
 keywords = []
 categories = []
 autobins = true
