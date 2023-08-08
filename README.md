@@ -3,6 +3,9 @@
 **minimal rust program for Longan Nano**  
 ***version: 1.0  date: 2021-08-09 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/blinky_blue)***  
 
+![status](https://img.shields.io/badge/obsolete-red) 
+![status](https://img.shields.io/badge/archived-red) 
+![status](https://img.shields.io/badge/tutorial-yellow) 
 ![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/3229388.svg)
 
 This program is created with the instructions here:  
